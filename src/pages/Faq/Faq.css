@@ -1,0 +1,19 @@
+
+.faqContent{
+    width: 100%;
+    background:#1b1b1b;
+    padding:150px;
+    color:white;
+}
+
+
+.faqContent h3{
+    margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+    .faqContent {
+        padding: 10px;
+        padding-top:150px;
+    }
+}

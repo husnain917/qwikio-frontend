@@ -1,0 +1,30 @@
+.home3Header{
+    background-image: url('../../image/QwikioPride.png');
+    background-position:80% 80%;
+}
+.home3carImage{
+    background-image: url('../../image/5f6f6df60b556cdf7de7edf8210126e0') !important;
+}
+.home3carImage2{
+    background-image: url('../../image/Group 1053.png') !important;
+}
+.home3PerCarImage{
+    background-image: url('../../image/Group 1054.png') !important;
+}
+.home3ConnectCarImage{
+    background-image: url('../../image/046c02305b700913249ac4a3638214b4') !important;
+}
+.home3CharCarImage{
+    background-image: url('../../image/f35bc867c25754ae822ec3bd2efca421') !important;
+}
+.home3Header>div{
+    height:100%;
+    width: 100%;
+    background-color:rgba(0, 0, 0, 0.379);
+}
+@media screen and (max-width:500px) {
+    .home3Header{
+        height:80vh;
+        overflow: hidden;
+    }
+}

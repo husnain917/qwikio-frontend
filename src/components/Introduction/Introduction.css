@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800&family=Open+Sans:ital,wght@0,300;0,500;1,300&family=Patrick+Hand&family=Source+Sans+Pro:wght@300&display=swap');
+.introduction{
+    background: #090909 0% 0% no-repeat padding-box;
+    width:100%;
+    overflow: hidden;
+    height:100%;
+}
+.introduction>div:first-child{
+    width:85%;
+    margin: auto;
+}
+.introduction p{
+    text-align: center;
+    font: normal normal normal 52px/90px Open Sans;
+    letter-spacing: 1.3px;
+    font-size:28px;
+    line-height: 50px !important;
+    padding-top:70px;
+    color: #707070;
+    font-weight:300;
+}
+.introduction p span{
+    color: white;
+    font-weight:400;
+}
+.introduction .performance{
+    display: flex;
+    width:87%;
+    margin:0 auto;
+}
+.introduction .performance div{
+    width:170px;
+    min-height:auto;  
+    border: 1px solid #707070;
+    border-radius:50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:5%;
+    padding:30px 0;
+}
+.introduction .performance div h6{
+    font-size:11px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(205, 204, 204);
+    width:90%;
+    margin: 0 auto;
+    text-align: center;
+    line-height:19px;
+}
+.introduction .performance div h1{
+    color: white;
+    font-family: none;
+    font-family: 'Patrick Hand', cursive;
+    margin-top:7%;
+}
+.introduction .carImage{
+    background-image: url('../../image/Group 1049.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:50% 50%;
+    height:90vh;
+    width:100%;
+}
+@media screen and (max-width:1100px) {
+    .introduction .performance div{
+        margin:3%;
+    }
+}
+@media screen and (max-width:960px) {
+    .introduction .performance div{
+        margin:2%;
+        width:140px;
+        min-height:auto;
+        padding:1% 1%; 
+    }
+}
+@media screen and (max-width:680px) {
+    .introduction .carImage{
+        height:50vh;
+    }
+    .introduction>div:first-child{
+        width:90%;
+    }
+    .introduction p{
+        font-size: 20px;
+        letter-spacing: 1px;
+        line-height: 40px !important;
+    }
+    .introduction .performance{
+        flex-wrap: wrap;
+        width:95%;
+        justify-content: center;
+    }
+    .introduction .performance div{
+        width:150px;
+        height:150px;
+        padding:10px;
+        margin:2%;
+    }
+}

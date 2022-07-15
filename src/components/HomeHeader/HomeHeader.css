@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800&family=Open+Sans:ital,wght@0,300;0,500;1,300&family=Source+Sans+Pro:wght@300&display=swap');
+.homeHeader{
+    width:100%;
+    height:100%;
+    background-image:url('../../image/2efe4c3221c91a91319da16096e7334c');
+    background-size: cover;
+    background-position:50% 50%;
+    overflow-x: hidden !important;
+}
+.homeHeader .content{
+    display: flex;
+    width:90%;
+    height:50vh;
+    margin-top:15% !important;
+    margin: auto;
+    align-items: flex-end;
+}
+.homeHeader .content div:first-child{
+    width:60%;
+}
+.homeHeader .content div:last-child{
+    width:40%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.homeHeader .content h2{
+    font-family: 'Open Sans', sans-serif;
+    font-weight:600;
+    color: #FFFFFF;
+    font-size:37px;
+    letter-spacing:1px;
+}
+.homeHeader .content h3{
+    font-family: 'Open Sans', sans-serif;
+    font-weight:500;
+    color: #FFFFFF;
+    font-size:25px;
+    letter-spacing:.5px;
+}
+.homeHeader .content h4{
+    color: #FFFFFF;
+    font: italic normal normal 40px/55px Open Sans;
+    font-size:25px;
+    letter-spacing:5px;
+}
+@media screen and (max-width:825px) {
+    .homeHeader .content h2{
+        font-size:30px;
+    }
+    .homeHeader .content h3{
+        font-size:20px;
+    }
+}
+@media screen and (max-width:670px) {
+    .homeHeader .content h2{
+        font-size:25px;
+    }
+    .homeHeader .content h3{
+        font-size:18px;
+    }
+    .homeHeader .content h4{
+        font-size:18px;
+    }
+}
+@media screen and (max-width:510px) {
+    .homeHeader .content{
+        display: block;
+        margin-top:45% !important;
+    }
+    .homeHeader .content div{
+        width:100% !important;
+    }
+}

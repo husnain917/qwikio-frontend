@@ -1,0 +1,105 @@
+.reserve{
+    width:100%;
+}
+.ReForm{
+    width:40%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding-top:50px;
+}
+.ReserveInner{
+    width:100%;
+    background-color:#141414;
+    height:100vh;
+}
+.ReForm>div>div{
+    margin:10px 0;
+    background-color: white;
+}
+.reserve>div textarea{
+    margin-top:10px;
+}
+
+
+.butto{
+    margin-top:30px !important;
+    margin-bottom:30px !important;
+    width:40%;
+    background-color: #C2B299 !important;
+    color:#1B1B1B !important;
+    border-radius: 0 !important;
+    border:2px solid transparent !important;
+    transition: .3s all ease !important;
+}
+.butto:hover{
+    background-color: #1B1B1B !important;
+    color: #C2B299 !important;
+    border:2px solid #C2B299 !important;
+}
+@media screen and (max-width:850px) {
+    .reserve>div:last-child>div{
+        width:60%;
+    }
+}
+@media screen and (max-width:550px) {
+    .reserve>div:last-child>div{
+        width:80%;
+    }
+
+
+}
+
+.ReserveInner{
+    display: flex;
+    height:100vh;
+}
+.modelPic{
+    width: 70% !important;
+}
+.ReForm{
+    width:25% !important;
+}
+
+.modelPic img{
+    width:100%;
+    height:100%;
+}
+
+.ReserveInner{
+    display: flex;
+    height:100vh;
+}
+.modelPic{
+    width: 70% !important;
+}
+.ReForm{
+    width:25% !important;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .ReserveInner{
+        display: block;
+        height:100vh;
+    }
+    .modelPic{
+        width: 100% !important;
+        padding:0px
+    }
+    .ReForm{
+        width:100% !important;
+        padding:20px;
+    }
+    .ReForm .submit{
+        width:100% !important;
+        justify-content: center;
+        display: flex;
+    }
+    .ReForm button{
+        width: 60%;
+    }
+}
+
+

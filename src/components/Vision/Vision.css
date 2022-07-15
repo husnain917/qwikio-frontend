@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant&display=swap');
+
+.vision p{
+    font-size: 58px;
+    font-weight: 400;
+    letter-spacing: normal;
+    line-height: 68.44px;
+    font-stretch :100%;
+    font-style :normal;
+    text-align: center;
+    text-size-adjust :100%;
+    color:black;
+    font-family: 'Cormorant', serif;
+    -webkit-font-smoothing: antialiased;
+}
+.intro-p-m{
+    display:none;
+}
+
+@media only screen and (max-width: 600px) {
+    .intro-p-m{
+        display:block;
+    }
+    .intro-p-m .intro-line-mark{
+        background-color: transparent !important;
+    }
+    .intro-p{
+        display:none;
+    }
+    .vision {
+        padding: 50px 0px;
+    }
+    .vision p{
+        font-size: 28px;
+        color:black;
+        line-height: 40.44px;
+        font-weight: 550 !important;
+    }
+  }
+
+.p-div{
+    display: block;
+    position: relative;
+}
+.intro-p .intro-line-mark{
+    opacity:.5;
+    width: 100%;
+    top: 0;
+    height: 70px;
+    position: absolute;
+    display: block;
+    margin-top:0px;
+    background: white;
+    height: 115%;
+    right: 0;
+    opacity: .65;
+    transform: translate3d(0px, 0px, 0px) scale(1, 1); transform-origin: 100% 50%;
+}

@@ -1,0 +1,10 @@
+.PrideHeader{
+    background-image: url('../../image/01.png') !important;
+}
+.PrideHeader .speed div{
+    margin:3% auto !important;
+}
+.PrideSlider .item1{
+    background-image: url('../../image/Group 1042.png') !important;
+    background-position: 80% 80%;
+}

@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Lemonada:wght@300;400;500;600;700&family=Mulish:wght@400;500;600;700;800&family=Open+Sans:ital,wght@0,300;0,500;1,300&family=Patrick+Hand&family=Poppins:wght@200;300;400;500;600&family=Source+Sans+Pro:wght@300&display=swap');
+.design{
+    width:100%;
+}
+.design h2{
+    letter-spacing: 2px;
+    font-family: 'Lemonada', cursive;
+    color: #090909;
+    text-align: center;
+    margin-top:70px;
+}
+.design p{
+    width:80%;
+    margin: 0 auto;
+    letter-spacing:1px;
+    margin-top:30px;
+    font-size:18px;
+    text-align: center;
+}
+.design .features{
+    margin-top:40px;
+    display: flex;
+    width:90%;
+    margin: 0 auto;
+}
+.design .features div{
+    margin:2%;
+    width:20%;
+}
+.design .features div h6{
+    margin:20px auto;
+    text-align: center;
+    font-size:12px;
+    color:#090909;
+}
+.design .features div h2{
+    font-weight:300;
+    letter-spacing:0;
+    font-size:23px;
+}
+.design .carImage2{
+    background-image: url('../../image/Group 1048.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:50% 50%;
+    height:90vh;
+    width:100%;
+}
+@media screen and (max-width:850px) {
+    .design .features{
+        width:95%;
+    }
+    .design .features div{
+        margin:.5px;
+        width:25%;
+    }
+}
+@media screen and (max-width:700px) {
+    .design .features{
+        width:100%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .design .features div{
+        margin:2%;
+        width:30%;
+    }
+    .design .carImage2{
+        height:50vh;
+    }
+}
+@media screen and (max-width:510px) {
+    .design p{
+        width:95%;
+        font-size:15px;
+    }
+    .design .features{
+        margin-top:20px;
+    }
+    .design .features div{
+        margin:1% 2%;
+        width:45%;
+    }
+}
+@media screen and (max-width:350px) {
+    .design .features div{
+        margin:auto;
+        width:70%;
+    }
+}

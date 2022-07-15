@@ -1,0 +1,29 @@
+.accordion {
+    background-color:transparent;
+    color: #bdae95;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 25px;
+    transition: 0.4s;
+  }
+  
+  .active, .accordion:hover {
+    color: #d4d0c5; 
+  }
+  
+  .panel {
+    padding: 0 18px;
+    display: none;
+    background-color: transparent;
+    overflow: hidden;
+    padding-left:40px;
+  }
+  .panel p{
+    color:#d4d0c5;
+    line-height: 30px;
+    font-size:18px;
+  }

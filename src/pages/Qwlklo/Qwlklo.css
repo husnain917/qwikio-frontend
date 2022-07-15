@@ -1,0 +1,159 @@
+
+.qwlklo .Header{
+    width:100%;
+    height:100vh;
+    background-image: url('../../image/Group 1054.png');
+    background-position:80% 80%;
+    background-size: cover;
+}
+.qwlklo .Header>div{
+    width:100%;
+    height:100%;
+    background-color: rgba(0, 0, 0, 0.418);
+}
+.qwlklo .Header>div h1{
+    font: normal normal 600 101px/159px Open Sans;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+    text-align: center;
+    font-size:47px;
+    padding-top:15%;
+    position: absolute;
+    width: 100%;
+    margin: auto;
+}
+.qwlkloContent{
+    width: 100%;
+    background:black;
+}
+.qwlkloContent p{
+    padding:100px 50px;
+    margin: auto;
+    font: normal normal normal 50px/42px Open Sans;
+    font-size: 28px;
+    letter-spacing: 0.5px;
+    color: #C2C2C2;
+    font-weight:200;
+    color:rgb(118, 116, 116);
+    line-height:50px;
+}
+.qwlkloContent p span{
+    font-weight:400;
+    color: white;
+}
+.Commitment{
+    display: flex;
+    width:100%;
+    overflow: hidden;
+}
+.Commitment div{
+    width:50%;
+}
+.Commitment .left{
+    padding:100px;
+}
+.Commitment .left p{
+    font-size: 23px;
+    margin-top:30px;
+}
+.Commitment .right img{
+    width:90%;
+    display: block;
+    margin: 20px auto;
+}
+.leaderShip{
+    width:100%;
+    background-color:#000;
+    display: flex;
+    overflow: hidden;
+}
+.leaderShip div{
+    width:50%;
+}
+.leaderShip .right{
+    padding:100px;
+    color: white;
+}
+.leaderShip .right p{
+    font-size: 20px;
+    margin-top:30px;
+    color: white;
+}
+.leaderShip .left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.leaderShip .left img{
+    width:90%;
+    display: block;
+    margin: 20px auto;
+}
+.aboutQwikio{
+    padding:50px;
+    background-color:black;
+    color:white;
+}
+.aboutQwikio .first{
+    margin-top:40px;
+}
+@media screen and (max-width:1000px) {
+    .Commitment .left{
+        padding:30px;
+    }
+    .leaderShip .right{
+        padding:30px;
+    }
+}
+@media screen and (max-width:750px) {
+    .leaderShip .right{
+        padding:20px;
+    }
+    .leaderShip .left{
+        width:40%;
+    }
+    .leaderShip .right{
+        width:60%;
+    }
+    .qwlkloContent p{
+        font-size:22px;
+        line-height:30px;
+        padding:50px 20px;
+    }
+}
+@media screen and (max-width:650px) {
+    .Commitment{
+        display: block;
+    }
+    .leaderShip{
+        display: block;
+    }
+    .Commitment div{
+        width:95%;
+        margin: auto;
+    }
+    .leaderShip div{
+        width:95% !important;
+        margin: auto;
+    }
+}
+@media screen and (max-width:550px) {
+    .qwlklo .Header>div h1{
+        position: static;
+    }
+    .qwlklo .Header h1{
+        font-size:25px !important;
+    }
+    .aboutQwikio{
+        padding:40px 20px;
+        background-color:black;
+        color:white;
+    }
+    .aboutQwikio p{
+        font-size:14px;
+    }
+    .qwlklo .Header {
+        height: auto;
+    }
+        
+}

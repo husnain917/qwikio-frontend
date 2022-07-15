@@ -1,0 +1,581 @@
+.Riidax .Header{
+    width:100%;
+    overflow: hidden;
+}
+.Riidax .menu{
+    position: absolute;
+    top:10px;
+    z-index:9999;
+    left:5%;
+}
+.Riidax .Header .slick-dots{
+    display: block !important;
+    bottom:40px;
+    color: white !important;
+}
+.Riidax .Header .slick-dots li button{
+    background: white !important;
+    border-radius:50px;
+    width:15px;
+    height:15px;
+    margin-top:2px;
+}
+.Riidax .Header .item{
+    width:100%;
+    height:100vh !important;
+    z-index:1;
+    padding-top:100px;
+}  
+.Riidax .item{
+    /* padding-top:150px; */
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+} 
+.Riidax .item .Head{
+    width:100%;
+    background-color:rgba(0, 0, 0, 0.322) !important;
+    height:120% !important;
+    margin-top:-100px !important;}
+.Riidax .item1 .Head{
+    background-image:url('../../image/home-f2.png');
+    background-repeat: no-repeat;
+    background-position: 70% 70%;
+    background-size: cover;
+}
+.transef{
+    background-color: rgba(9, 9, 9, 20%);
+    height:100%;
+    width:100%;
+}
+.bottom-text{
+    font-size: 15px;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 50px;
+    margin-left: 50px;
+}
+.bottom-text h2{
+    font-size: 25px;
+}
+
+.bottom-text h2 {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid rgb(53, 51, 51); /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    /* margin: 0 auto; Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 3.5s steps(40, end),
+      blink-caret .75s step-end infinite;
+  }
+  
+/* The typing effect */
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: rgb(53, 51, 51); }
+  }
+
+
+.Riidax .item2 .Head{
+    background-image:url('../../image/Group 1042.png');
+    background-repeat: no-repeat;
+    background-position: 70% 70%;
+    background-size: cover;
+}
+.Riidax .item3 .Head{
+    background-image:url('../../image/Group 1049.png');
+    background-repeat: no-repeat;
+    background-position: 70% 70%;
+    background-size: cover;
+}
+.Riidax .item .Head>div:first-child{
+    padding-top:120px;
+}
+.Riidax .speed{
+    display: flex;
+    width:87%;
+    margin:0 auto;
+    margin-top:9%;
+}
+.Riidax .speed div{
+    width:150px;
+    min-height:150px;  
+    border: 1px solid #B7B7B7;
+    border-radius:50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:6%;
+    padding:30px 0;
+}
+.Riidax .speed div h6{
+    font-size:11px;
+    font-family: 'Open Sans', sans-serif;
+    color: #B7B7B7;
+    width:90%;
+    margin: 0 auto;
+    text-align: center;
+    line-height:19px;
+}
+.Riidax .speed div h2{
+    color: white;
+    font-family: none;
+    font-family: 'Patrick Hand', cursive;
+    margin-top:7%;
+}
+.Riidax h1{
+    font: normal normal 600 Open Sans;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 38px;
+    margin-top:100px;
+}
+.Riidax .butt{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border:none;
+    font: normal normal 600 22px/37px Poppins;
+    font-size:13px;
+    padding: 5px 45px;
+    margin: auto;
+    margin-top:20px;
+    display: table;
+    color: black;
+    text-decoration: none;
+}
+.Riidax .button{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border:none;
+    font: normal normal 600 22px/37px Poppins;
+    font-size:13px;
+    padding: 5px 45px;
+    margin: auto;
+    display: table;
+    color: black;
+    text-decoration: none;
+}
+.Riidax button{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border:none;
+    font: normal normal 600 22px/37px Poppins;
+    font-size:13px;
+    padding: 5px 45px;
+    margin: auto;
+    display: block;
+}
+.sliders{
+    width:100%;
+    height: 100vh;
+    overflow: hidden;
+    z-index:1;
+    /* margin-top: 96px; */
+}
+.slick-prev {
+    left: 100px !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    z-index:99999;
+    background-color: rgba(128, 128, 128, 0) !important;
+    padding:32px !important;
+    border: 1px solid #FFFFFF !important;
+    border-radius:50px !important;
+    padding-left:60px !important;
+    padding-right:5px !important;
+}
+.slick-next {
+    right: 100px !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    background-color: rgba(128, 128, 128, 0) !important;
+    z-index:99999;
+    padding: 33px 47px !important;
+    border: 1px solid #FFFFFF !important;
+    border-radius:50px !important;
+    padding-right:20px !important;
+}
+.sliders .item{
+    height:100vh;
+    background-color: rgba(0, 0, 0, 0.269);
+    z-index:9999;
+}
+.sliders .item1{
+    background-image: url('../../image/RiidaXL.jpg');
+    background-size: cover;
+}
+.sliders .item2{
+    background-image: url('../../image/e022ca0fd51c6dff646c69a02883a139');
+    background-size: cover;
+}
+.sliders .item3{
+    background-image: url('../../image/Group 1054.png');
+    background-size: cover;
+}
+.sliders .item h4{
+
+    /* background: #FFFFFF 0% 0% no-repeat padding-box; */
+    border: none;
+    /* font-family: Poppins; */
+    font-size: 13px;
+    padding: 5px 45px;
+    display: table;
+    margin: 20px auto;
+    margin-top: 0;
+    border: 1px solid white;
+    color: white;
+    font-family: 'Space Mono', monospace;
+    letter-spacing: 1.5px;
+}
+.sliders .item h2{
+    text-align: center;
+    font: normal normal 600 Open Sans;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+    font-size: 38px;
+}
+.item p{
+    text-align: center;
+    color: #fff;
+    letter-spacing: 2px;
+}
+.item button{
+    margin-top:23%;
+}
+.vision{
+    width:100%;
+    padding:100px 40px;
+    padding-bottom: 0px;
+}
+.vision p{
+    margin: auto;
+    font: normal normal normal 50px/42px Open Sans;
+    font-size: 28px;
+    letter-spacing: 0.5px;
+    color: #C2C2C2;
+    margin-top:20px;
+}
+.vision h2 span{
+    font-weight:200;
+}
+.vision p span{
+    color: black;
+}
+.vision h2{
+    text-align: center;
+}
+.riidaxImg{
+    background-image: url('../../image/Group 1059.png');
+    background-size: cover;
+    background-position:50% 50%;
+    width:100%;
+    height:70vh;
+}
+.riidaX{
+    width:100%;
+    background-color: black;
+}
+.riidaX>div{
+    width:90%;
+    margin:0 auto;
+    padding: 40px 0;
+    display: flex;
+}
+.riidaX>div h4{
+    color: white;
+    font-size:18px;
+}
+.riidaX>div>div{
+    width:50%;
+}
+.riidaX>div a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    font-size: 18px;
+    text-align: right;
+}
+.riidaX>div>div:first-child h4{
+    text-align: left;
+}
+.multipleSlider .slick-next{
+    display: none !important;
+}
+.multipleSlider .slick-prev{
+    display: none !important;
+}
+.multipleSlider .item img{
+    width:100%;
+    height:100%;
+    border:5px solid white;
+}
+.slick-dots{
+    display: none !important;
+}
+.bus-vehicle-container{
+    width: 100%;
+    height:650px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 30px;
+    padding-bottom: 40px;
+    background-image: url('https://electrek.co/wp-content/uploads/sites/3/2022/05/Arrival-Updates-Bus.jpg?quality=82&strip=all&w=1400');
+}
+.rideshare-vehicle-container{
+    width: 100%;
+    height:650px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 30px;
+    padding-bottom: 40px;
+    background-image: url('https://static.dezeen.com/uploads/2021/12/uber-arrival-electric-car-ride-hailing_dezeen_2364_hero.jpg');
+}
+.luxury-vehicle-container{
+    width: 100%;
+    height:650px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 30px;
+    padding-bottom: 40px;
+    background-image: url('https://futuretransport-news.com/wp-content/uploads/sites/3/2021/05/Arrival-Uber-1024x410.jpg');
+}
+.police-van-vehicle-container{
+    width: 100%;
+    height:650px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 30px;
+    padding-bottom: 40px;
+    background-image: url('https://s3-screenshots.int-cdn.lcpdfrusercontent.com/monthly_2020_05/RCMP_Bearcat_1.png.36fe4eb4ec5fbb2d3812f0f5bc022763.png');
+}
+.ambulance-vehicle-container{
+    width: 100%;
+    height:650px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 30px;
+    padding-bottom: 40px;
+    background-image: url('https://www.nwas.nhs.uk/content/uploads/2020/11/Ambulance-at-night-1024x576.png');
+}
+.name-desc-row{
+    display: inline-flex;
+    width: 100%;
+}
+.vehcile-name-container{
+    width: 20%;
+    color: white;
+    font-size: 11.25px;
+    font-family: 'Space Mono', monospace;
+    letter-spacing: 1.5px;
+}
+.desc-container{
+    width: 462px;
+    color: white;
+    font-size: 11.25px;
+    text-indent: 23px;
+    padding-right: 100px;
+    font-family: 'Space Mono', monospace;
+    letter-spacing: 1.5px;
+}
+.learn-more-btn{
+    display: inline-flex !important;
+    flex-direction: row-reverse !important;
+    font-size: 11.25px !important;
+    margin: 0px !important;
+    padding: 0px 12px !important;
+    overflow: hidden !important;
+    border: none !important;
+    border-radius: 2px !important;
+    box-sizing: border-box !important;
+    cursor: pointer !important;
+    outline: none !important;
+    white-space: nowrap !important;
+    background: rgba(46, 47, 50, 0.88) !important;
+    color: rgba(255, 255, 255, 0.88) !important;
+    text-decoration: none !important;
+    font-family: 'Space Mono', monospace !important;
+    letter-spacing: 1.5px !important;
+}
+.link-text{
+    text-decoration: none !important;
+}
+@media screen and (max-width:1252px) {  
+    .Riidax .speed div{
+        width:150px;
+        padding:15px;
+        max-height:150px;
+    }
+}
+@media screen and (max-width:1000px) {
+    .vehcile-name-container{
+        width: 25%;
+    }
+    .Riidax .speed{
+        flex-wrap: wrap;
+    }
+    .Riidax .speed div{
+        margin:3% auto;
+    }
+}
+@media screen and (max-width:750px) {
+    .vehcile-name-container{
+        width: 40%;
+    }
+    .desc-container{
+        width: 60%;
+        padding-right: 30px;
+    }
+    .sliders .item div{
+        padding:20px;
+        background: rgb(0 0 0 / 20%);
+    }
+    .sliders .item {
+        height: auto;
+    }
+    .sliders .item1 {
+        background-position: 40%;
+    }
+    .sliders .item2 {
+        background-position: 40%;
+    }
+
+    .sliders .item3{
+        background-image: url('../../image/Group 1054-m.png');
+    }
+    .sliders .item3 {
+        background-position: 55%;
+    }
+    .slick-prev {
+        left:20px !important;
+    }
+    .slick-next{
+        right:20px !important;
+    }
+    .item button{
+        margin-top:35% !important;
+    }
+    .vision p{
+        font-size:18px;
+        line-height:25px;
+    }
+    .vision{
+        padding-bottom:0;
+    }
+    .Riidax .item1 .Head {
+        background-position: 40% 70%;
+        background-size: 100%;
+        background-image:url('../../image/home-f2-m.png');
+    }
+    .bottom-text {
+        margin-left: 10px;
+    }
+    .bottom-text h2 {
+        font-size: 12px;
+        letter-spacing: 0px;
+    }
+    .Riidax .item .Head {
+        height: 140% !important;
+    }
+    .Riidax .Header .item {
+        height: 42vh !important;
+    }
+
+    .item p{
+        letter-spacing: normal;
+        font-size: 15px;
+    }
+    .sliders {
+         height: auto;
+    }
+
+    .slick-next {
+        right: 100px !important;
+        display: flex !important;
+        justify-content: unset !important;
+        align-items: center !important;
+        background-color: rgba(128, 128, 128, 0) !important;
+        z-index: 99999;
+        padding: 33px 47px !important;
+        border: none !important;
+        border-radius: 50px !important;
+        padding-right: 30px !important;
+        right: 0 !important;
+    }
+    .slick-prev {
+        left: 0 !important;
+        display: flex !important;
+        justify-content: unset !important;
+        align-items: center !important;
+        z-index: 99999;
+        background-color: rgba(128, 128, 128, 0) !important;
+        padding: 32px !important;
+        border: none !important;
+        border-radius: 50px !important;
+        padding-left: 10px !important;
+        padding-right: 5px !important;
+    }
+    .riidaxImg {
+        margin-top: -220px;
+    }
+    .Riidax .item {
+        padding-top: 0px;
+    }
+    .sliders{
+        margin-top: 79px;
+    }
+}
+
+@media screen and (max-width:436px) {
+    .name-desc-row{
+        display: block;
+        width: 100%;
+    }
+    .vehcile-name-container{
+        width: 100%;
+    }
+    .desc-container{
+        width: 100%;
+        padding-right: 0px;
+    }
+    .sliders{
+        margin-top: 18%;
+    }
+  }
+
+
+#myVideo {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    height: 100vh;
+  }

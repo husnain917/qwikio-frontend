@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant&display=swap');
+
+.HomeIntro3 p{
+    font-size: 48px !important;
+    font-weight: 400;
+    letter-spacing: normal;
+    line-height: 60.44px !important;
+    font-stretch :100%;
+    font-style :normal;
+    text-align: center !important;
+    text-size-adjust :100%;
+    color:white !important;
+    font-family: 'Cormorant', serif;
+    -webkit-font-smoothing: antialiased;
+    padding-top: 80px;
+}
+
+@media only screen and (max-width: 600px) {
+    .HomeIntro3 p{
+        font-size: 15px;
+        line-height: 40.44px;
+    }
+  }
+
+.p-div{
+    display: block;
+    position: relative;
+}
+.HomeIntro3 .intro-line-mark{
+    opacity:.5;
+    width: 100%;
+    top: 0;
+    height: 70px;
+    position: absolute;
+    display: block;
+    margin-top:0px;
+    background: #090909;
+    height: 115%;
+    right: 0;
+    opacity: .65;
+    transform: translate3d(0px, 0px, 0px) scale(1, 1); transform-origin: 100% 50%;
+}
