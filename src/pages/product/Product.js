@@ -17,7 +17,7 @@ export default function Product() {
                     </div>
                     <div className='product-desc-container'>
                         <p>{modelObj?.desc}</p>
-                        <Link className='link-text' to='/bus'><button className='register-btn'>REGISTER INTEREST</button></Link>
+                        <Link className='link-text' to={`/register-interest/${path[1]}`}><button className='register-btn'>REGISTER INTEREST</button></Link>
                     </div>
                 </div>
             </div>

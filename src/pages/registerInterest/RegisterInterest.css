@@ -1,0 +1,157 @@
+.main-row{
+    width: 100%;
+    display: inline-flex;
+    margin-top: 90px;
+    justify-content: space-between;
+    align-items: center;
+}
+.from-container{
+    width: 45%;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 150px;
+}
+.page-heading-container{
+    padding: 10px;
+    text-transform: uppercase;
+    background-color: #23262c;
+    color: #f3f3f3;
+    font-size: 11.25px;
+    font-family: 'Space Mono', monospace;
+    letter-spacing: 1.5px;
+    border-radius: 2px;
+    border: none;
+    outline: none;
+}
+.question{
+    font-size: 24px;
+    font-family: 'Space Mono', monospace;
+    letter-spacing: 1.5px;
+    font-weight: bold;
+    margin-top: 40px;
+}
+.product-name-transform{
+    text-transform: capitalize;
+}
+.options-heading{
+    font-size: 14px;
+    letter-spacing: 1.5px;
+    margin-top: 40px;
+}
+.bg-picture-container{
+    width: 45%;
+    display: inline-flex;
+    justify-content: flex-end;
+    /* padding-top: 150px; */
+}
+.not-active-footer-btn-container{
+    width: 100%;
+    background-color: #e7e7e8;
+    padding: 32px;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: not-allowed;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+}
+.active-footer-btn-container{
+    width: 100%;
+    background-color: #2044ff;
+    padding: 32px;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+}
+.back-btn-container{
+    width: 100px;
+    background-color: #23262c;
+    padding: 12px;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    position: fixed;
+    bottom: 80px;
+    left: 0px;
+}
+.back-btn-text{
+    color: #f3f3f3;
+    font-size: 11.25px;
+    font-family: 'Space Mono', monospace;
+    letter-spacing: 1.5px;
+}
+.not-activefooter-btn-text{
+    color: #85878a;
+    font-size: 11.25px;
+    font-family: 'Space Mono', monospace;
+    letter-spacing: 1.5px;
+}
+
+.activefooter-btn-text{
+    color: #f3f3f3;
+    font-size: 11.25px;
+    font-family: 'Space Mono', monospace;
+    letter-spacing: 1.5px;
+}
+.drop-down{
+    padding: 24px;
+    border: none;
+    outline: none;
+    width: 100%;
+    margin-bottom: 20px;
+    padding-right: 30px;
+    background: url(http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png) no-repeat right #f4f4f4;
+    appearance:none;
+    -moz-appearance:none; /* Firefox */
+    -webkit-appearance:none; /* Safari and Chrome */
+    background-position-x: 95%;
+}
+.register-interest-inputs-container{
+    margin-top: 40px;
+}
+.register-interest-details-input{
+    background-color: #f4f4f4;
+    padding: 24px;
+    border: none;
+    outline: none;
+    width: 100%;
+    margin-bottom: 20px;
+    padding-right: 30px;
+}
+.checkbox-row{
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+}
+.register-interest-details-checkbox{
+    border: none;
+    outline: none;
+    margin-bottom: 20px;
+    transform: scale(2);
+    margin-left: 7px;    
+    margin-top: 20px;
+    margin-right: 30px;
+}
+.checkbox-text{
+    font-family: 'Space Mono', monospace;
+    letter-spacing: 1px;
+    font-size: 13px;
+}
+@media screen and (max-width:900px) {
+    .bg-picture-container{
+        display: none;
+    }
+    .from-container{
+        width: 100%;
+        padding-left: 30px;
+        padding-top: 30px;
+        padding-right: 30px;
+        padding-bottom: 150px;
+    }
+}

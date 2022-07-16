@@ -24,7 +24,10 @@ import { useEffect } from 'react';
 import animateScrollTo from 'animated-scroll-to';
 import Product from './pages/product/Product';
 import Gallery from './pages/gallery/Gallery';
+import RegisterInterest from './pages/registerInterest/RegisterInterest';
 // import {Scrollbar} from 'smooth-scrollbar-react';
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 
 function App() {
@@ -41,6 +44,7 @@ function App() {
 
   return (
     <>
+      <ToastContainer />
       <ScrollToTop />
       <Routes basename={process.env.PUBLIC_URL}>
         <Route path="/" element={<Riidax />} />
@@ -48,6 +52,7 @@ function App() {
         {/* <Route exact={true} path="/Product" element={<Home2 />} /> */}
         <Route exact={true} path="/:name/:id" element={<Product />} />
         <Route exact={true} path="/:name/:className/gallery/:id" element={<Gallery />} />
+        <Route exact={true} path="/register-interest/:name" element={<RegisterInterest />} />
         {/* <Route exact={true} path="/Products" element={<Home />} /> */}
         <Route exact={true} path="/:name" element={<Models />} />
         <Route exact={true} path="/RiidaXL" element={<RiidaXL />} />
