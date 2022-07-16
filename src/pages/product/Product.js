@@ -38,16 +38,18 @@ export default function Product() {
                                 </div>
                             </div>
                         </Link>
-                        <div className="signup-box-container">
-                            <p className='product-name'>SIGN UP</p>
-                            <p className='signup-desc'>BE THE FIRST TO RECIEVE THE LATEST NEWS FROM QWIKIO</p>
-                            <div className="box-bottom-row">
-                                <div></div>
-                                <div className='arrow-container'>
-                                    <img width={16} height={16} src={arrow} alt="" />
+                        <Link className='link-text' to={`/subscribe`}>
+                            <div className="signup-box-container">
+                                <p className='product-name'>SIGN UP</p>
+                                <p className='signup-desc'>BE THE FIRST TO RECIEVE THE LATEST NEWS FROM QWIKIO</p>
+                                <div className="box-bottom-row">
+                                    <div></div>
+                                    <div className='arrow-container'>
+                                        <img width={16} height={16} src={arrow} alt="" />
+                                    </div>
                                 </div>
                             </div>
-                        </div>
+                        </Link>
                     </div>
                 </div>
                 <div className={`${modelObj?.className}-feature-picture-container`}>

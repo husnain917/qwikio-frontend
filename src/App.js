@@ -28,7 +28,8 @@ import RegisterInterest from './pages/registerInterest/RegisterInterest';
 // import {Scrollbar} from 'smooth-scrollbar-react';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-
+import PrivacyPolicy from './pages/privacyPolicy/PrivacyPolicy';
+import Subscribe from './pages/subscribe/Subscribe';
 
 function App() {
 
@@ -50,6 +51,8 @@ function App() {
         <Route path="/" element={<Riidax />} />
         <Route exact={true} path="/faq" element={<Faq />} />
         {/* <Route exact={true} path="/Product" element={<Home2 />} /> */}
+        <Route exact={true} path="/privacy-policy" element={<PrivacyPolicy />} />
+        <Route exact={true} path="/subscribe" element={<Subscribe />} />
         <Route exact={true} path="/:name/:id" element={<Product />} />
         <Route exact={true} path="/:name/:className/gallery/:id" element={<Gallery />} />
         <Route exact={true} path="/register-interest/:name" element={<RegisterInterest />} />
