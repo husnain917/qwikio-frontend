@@ -41,9 +41,9 @@ export default function Subscribe() {
             <div className='subscribe-page-container'>
                 <p>
                     <span className='upper-line-text'>Subscribe to the newsletter.</span>
-                    <span className='lower-line-text'>Be the first to receive the latest news from Arrival.</span>
+                    <span className='lower-line-text'>Be the first to receive the latest news from Qwikio.</span>
                 </p>
-                <input value={email} onChange={(e) => setEmail(e.target.value)} className='subscribe-email-input' type="text" />
+                <input placeholder='Business Email' value={email} onChange={(e) => setEmail(e.target.value)} className='subscribe-email-input' type="text" />
                 <div onClick={email && access ? btnHandler : null} className={email && access ? 'active-submit-btn-container' : 'not-active-submit-btn-container'}>
                     <div className={email && access ? 'activefooter-btn-text' : 'not-activefooter-btn-text'}>
                         SUBMIT

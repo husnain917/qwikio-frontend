@@ -1,0 +1,80 @@
+.news-page-container{
+    width: 100%;
+    min-height: 100vh;
+    background-color:#0f1011;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 130px;
+    padding-bottom: 100px;
+}
+.news-heading{
+    font-size: 24px;
+    color:#f3f3f3;
+    font-family: 'Space Mono', monospace;
+    letter-spacing: 1.5px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+.updates-heading{
+    width: 57%;
+    font-size: 24px;
+    color:#f3f3f3;
+    font-family: 'Space Mono', monospace;
+    letter-spacing: 1.5px;
+    margin-top: 5px;
+}
+.news-container{
+    margin-top: 100px;
+}
+.bus-trials-italy{
+    width: 919px;
+    height:520px;
+    margin-bottom: 30px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    transition: .5s;
+    background-image: url('https://public.das.arrival.com/ba912c87-9057-484c-af51-c86e95fe2f73-3840%401536-desktop-downscaled-1-14ef7c12-1289-4904-81a6-18a3b4827d55_0b920737-53be-47be-96a7-3584a036ad43_idiada_bus_2_3.jpg');
+}
+.bus-trials-italy:hover{
+    transform: scale(1.01);
+}
+.icon-details-container{
+    padding: 20px 20px;
+    width:100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.icon-and-details-row{
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.news-title-container{
+    color: #f3f3f3;
+    font-size: 24px;
+    letter-spacing: 1.5px;
+    width: 60%;
+    font-weight: bold;
+}
+@media screen and (max-width:1024px) {
+    .bus-trials-italy{
+        width: 100%;    
+    }
+}
+@media screen and (max-width:750px) {
+    .news-title-container{
+        width: 80%;
+    }
+    .news-page-container{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
