@@ -30,6 +30,7 @@ import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import PrivacyPolicy from './pages/privacyPolicy/PrivacyPolicy';
 import Subscribe from './pages/subscribe/Subscribe';
+import TermsAndCondition from './pages/terms&condition/TermsAndCondition';
 
 function App() {
 
@@ -52,6 +53,7 @@ function App() {
         <Route exact={true} path="/faq" element={<Faq />} />
         {/* <Route exact={true} path="/Product" element={<Home2 />} /> */}
         <Route exact={true} path="/privacy-policy" element={<PrivacyPolicy />} />
+        <Route exact={true} path="/terms-and-condition" element={<TermsAndCondition />} />
         <Route exact={true} path="/subscribe" element={<Subscribe />} />
         <Route exact={true} path="/:name/:id" element={<Product />} />
         <Route exact={true} path="/:name/:className/gallery/:id" element={<Gallery />} />
