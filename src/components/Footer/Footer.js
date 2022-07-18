@@ -19,7 +19,7 @@ const Footer = () => {
                         <li className='footer-tab'><Link to="/privacy-policy">PRIVACY POLICY</Link></li>
                         <li className='footer-tab'><Link to="/terms-and-condition">TERMS & CONIDTIONS</Link></li>
                         <li className='footer-tab'><Link to="/Contact">CONTACT US</Link></li>
-                        <li className='footer-tab'><Link to="/">NEWS</Link></li>
+                        <li className='footer-tab'><Link to="/news">NEWS</Link></li>
                         <li className='footer-tab'><Link to="/subscribe">SUBSCRIBE</Link></li>
                     </ul>
                 </div>
