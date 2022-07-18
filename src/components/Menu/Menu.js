@@ -35,7 +35,7 @@ const Menu = ({ name }) => {
                     <li onClick={width <= 950 && closeMenu} className={name == 'bus' ? 'active' : 'not-active'}><Link to={`/${'bus'}`}>BUS</Link></li>
                     <li onClick={width <= 950 && closeMenu} className={name == 'rideshare' ? 'active' : 'not-active'}><Link to={`/${'rideshare'}`}>RIDESHARE</Link></li>
                     <li onClick={width <= 950 && closeMenu} className={name == 'luxury' ? 'active' : 'not-active'}><Link to={`/${'luxury'}`}>LUXURY</Link></li>
-                    <li onClick={width <= 950 && closeMenu} className={name == 'speciality' ? 'active' : 'not-active'}><Link to={`/${'speciality'}`}>SPECIALITY</Link></li>
+                    <li onClick={width <= 950 && closeMenu} className={name == 'specialty' ? 'active' : 'not-active'}><Link to={`/${'specialty'}`}>SPECIALTY</Link></li>
                     <li onClick={width <= 950 && closeMenu} className={name == 'news' ? 'active' : 'not-active'}><Link to="/news">NEWS</Link></li>
                     <li onClick={width <= 90 && closeMenu} className={name == 'reserve-now' ? 'active btn-reserve' : 'not-active btn-reserve'}><Link to="/reserve-now" className='reser'>RESERVE NOW</Link></li>
                 </ul>

@@ -12,7 +12,7 @@ export default function NewsDetails() {
   const id = location.pathname;
   const path = id?.split('/');
   const filterdNews = newsData?.filter((item) => {
-    if (item?.id == path[2]) {
+    if (item?.id == path[3]) {
       return item;
     }
   });

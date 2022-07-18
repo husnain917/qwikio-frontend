@@ -20,7 +20,7 @@ export default function News() {
                             return (
                                 <div className={item?.className}>
                                     <div className='icon-details-container'>
-                                        <Link className='link-text' to={`/${item?.title}/${item?.id}`}>
+                                        <Link className='link-text' to={`/news/${item?.title}/${item?.id}`}>
                                             <div className='icon-and-details-row'>
                                                 <div className='news-title-container'>
                                                     <p>{item?.title}</p>

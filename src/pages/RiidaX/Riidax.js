@@ -157,7 +157,7 @@ const Riidax = () => {
           </div>
           <div className='desc-container'>
             <p> A RADICALLY REIMAGINED URBAN UTILITY VEHICLE. BEAUTIFUL, FUNCTIONAL, AFFORDABLE AND SUSTAINABLE. CUSTOMISABLE TO SUIT YOUR NEEDS.</p>
-            <Link className='link-text' to='/speciality'><button className='learn-more-btn'>LEARN MORE</button></Link>
+            <Link className='link-text' to='/specialty'><button className='learn-more-btn'>LEARN MORE</button></Link>
           </div>
         </div>
       </div>
@@ -169,7 +169,7 @@ const Riidax = () => {
           </div>
           <div className='desc-container'>
             <p> A RADICALLY REIMAGINED URBAN UTILITY VEHICLE. BEAUTIFUL, FUNCTIONAL, AFFORDABLE AND SUSTAINABLE. CUSTOMISABLE TO SUIT YOUR NEEDS.</p>
-            <Link className='link-text' to='/speciality'><button className='learn-more-btn'>LEARN MORE</button></Link>
+            <Link className='link-text' to='/specialty'><button className='learn-more-btn'>LEARN MORE</button></Link>
           </div>
         </div>
       </div>

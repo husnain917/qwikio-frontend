@@ -177,7 +177,7 @@ export default function UseModels() {
             ]
         },
         {
-            name: 'speciality',
+            name: 'specialty',
             galleryBanner: bus,
             productImg: 'https://dutchreview.com/wp-content/uploads/Netherlands-police-van-at-night-.jpg',
             models: [

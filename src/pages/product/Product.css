@@ -467,6 +467,7 @@
    ,.qwikio-police-van-feature-picture-container,.qwikio-police-van-accessibility-picture-container
    ,.qwikio-ambulance-feature-picture-container,.qwikio-ambulance-accessibility-picture-container{
        width: 100%;
+       background-position: 40%;
    }
 }
 @media screen and (max-width:750px) {

@@ -32,6 +32,7 @@ import PrivacyPolicy from './pages/privacyPolicy/PrivacyPolicy';
 import Subscribe from './pages/subscribe/Subscribe';
 import News from './pages/news/News';
 import NewsDetails from './pages/newsDetails/NewsDetails';
+import WhyQwikio from './pages/whyQwikio/WhyQwikio';
 
 function App() {
 
@@ -56,7 +57,7 @@ function App() {
         <Route exact={true} path="/privacy-policy" element={<PrivacyPolicy />} />
         <Route exact={true} path="/subscribe" element={<Subscribe />} />
         <Route exact={true} path="/news" element={<News />} />
-        <Route exact={true} path="/:title/:id" element={<NewsDetails />} />
+        <Route exact={true} path="/news/:title/:id" element={<NewsDetails />} />
         <Route exact={true} path="/:name/:id" element={<Product />} />
         <Route exact={true} path="/:name/:className/gallery/:id" element={<Gallery />} />
         <Route exact={true} path="/register-interest/:name" element={<RegisterInterest />} />
@@ -64,7 +65,7 @@ function App() {
         <Route exact={true} path="/:name" element={<Models />} />
         <Route exact={true} path="/RiidaXL" element={<RiidaXL />} />
         <Route exact={true} path="/Pride" element={<Pride />} />
-        <Route exact={true} path="/why-qwikio" element={<Qwlklo />} />
+        <Route exact={true} path="/why-qwikio" element={<WhyQwikio />} />
         {/* <Route exact={true} path="/luxury" element={<Home3 />} /> */}
         <Route exact={true} path="/contact" element={<Contact />} />
         <Route exact={true} path="/reserve-now" element={<Reserve />} />
