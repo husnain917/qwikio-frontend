@@ -1,4 +1,4 @@
-.privacy {
+.terms {
     display: flex;
   }
   
@@ -6,7 +6,7 @@
     flex: 0 0 45vw;
     background: rgb(255, 255, 255);
   }
-  .privacy-wrapper {
+  .terms-wrapper {
     position: fixed;
     top: 30px; 
     left: 30px;
@@ -23,10 +23,16 @@
     flex: 1 1;
     padding: 20px;
   }
-  .privacy-questions{
+  @media screen and (max-width: 480px) {
+    section {
+     flex: 0 0;
+        padding: 20px;
+      }
+  }
+  .terms-questions{
     line-height: 0.9rem;
   }
-  .privacy-answers{
+  .terms-answers{
     margin-top: 80px;
     font-size: 16px;
     line-height: 2rem;
@@ -40,12 +46,11 @@
     color: #000;
     text-decoration: underline;
   }
-  .privacy-heading{
-    font-size: 24px;
-    font-family: "Arrival Apercu Pro", system-ui;
-       font-style: normal;
-       font-weight: 400;
-       letter-spacing: normal;
-       line-height: 32px;
-     }
-  
+  .terms-heading{
+ font-size: 24px;
+ font-family: "Arrival Apercu Pro", system-ui;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: normal;
+    line-height: 32px;
+  }

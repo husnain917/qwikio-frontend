@@ -1,0 +1,80 @@
+.full-page-black-body-container{
+    width: 100%;
+    min-height: 100vh;
+    background-color:#0f1011;
+}
+.empty-and-content-row{
+    width: 100%;
+    display: inline-flex;
+    margin-top: 100px;
+}
+.empty-container{
+    width: 20%;
+}
+.content-container{
+    width: 80%;
+    min-height: 100vh;
+    background-color: white;
+    padding-bottom: 100px;
+}
+.top-picture-container{
+    border-radius: 2px;
+    width: 100%;
+    height:90vh;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-size: cover;
+    background-image: url('https://electrek.co/wp-content/uploads/sites/3/2022/05/Arrival-Updates-Bus.jpg?quality=82&strip=all&w=1400');
+}
+.why-qwikio-page-title-heading{
+    font-size: 32px;
+    font-family: 'Space Mono', monospace;
+    letter-spacing: 1.5px;
+    margin-top: 40px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+.title-info-text{
+    font-size: 32px;
+    font-family: 'Space Mono', monospace;
+    letter-spacing: 1.5px;
+    margin-top: 10px;
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+.text-content-and-empty-container-row{
+     width: 100%;
+     display: inline-flex;
+}
+.empty-content-container{
+    width: 30%;
+}
+.text-content-body{
+    width: 70%;
+    padding-right: 50px;
+}
+.simple-text-of-why-qwikio-details{
+    margin-top: 30px;
+    font-size: 20px;
+    letter-spacing: 1.5px;
+    color: #0f1011;
+    font-weight: 300;
+}
+.inside-content-body-heading{
+    font-size: 20px;
+    letter-spacing: 1.5px;
+    color: #0f1011;
+    font-weight: bold;
+    margin-top: 70px;
+    margin-bottom: 0px;
+}
+.simple-text-of-why-qwikio-details-of-clean{
+    font-size: 20px;
+    letter-spacing: 1.5px;
+    color: #0f1011;
+    font-weight: 300;
+    margin-top: 0px;
+}

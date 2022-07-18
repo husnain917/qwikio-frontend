@@ -29,10 +29,12 @@ import RegisterInterest from './pages/registerInterest/RegisterInterest';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import PrivacyPolicy from './pages/privacyPolicy/PrivacyPolicy';
+import TermsAndCondition from './pages/terms&condition/TermsAndCondition';
 import Subscribe from './pages/subscribe/Subscribe';
 import News from './pages/news/News';
 import NewsDetails from './pages/newsDetails/NewsDetails';
 import WhyQwikio from './pages/whyQwikio/WhyQwikio';
+import WhyQwikioDetails from './pages/whyQwikioDetails/WhyQwikioDetails';
 
 function App() {
 
@@ -55,6 +57,7 @@ function App() {
         <Route exact={true} path="/faq" element={<Faq />} />
         {/* <Route exact={true} path="/Product" element={<Home2 />} /> */}
         <Route exact={true} path="/privacy-policy" element={<PrivacyPolicy />} />
+        <Route exact={true} path="/terms-and-condition" element={<TermsAndCondition />} />
         <Route exact={true} path="/subscribe" element={<Subscribe />} />
         <Route exact={true} path="/news" element={<News />} />
         <Route exact={true} path="/news/:title/:id" element={<NewsDetails />} />
@@ -66,6 +69,7 @@ function App() {
         <Route exact={true} path="/RiidaXL" element={<RiidaXL />} />
         <Route exact={true} path="/Pride" element={<Pride />} />
         <Route exact={true} path="/why-qwikio" element={<WhyQwikio />} />
+        <Route exact={true} path="/why-qwikio/:name" element={<WhyQwikioDetails />} />
         {/* <Route exact={true} path="/luxury" element={<Home3 />} /> */}
         <Route exact={true} path="/contact" element={<Contact />} />
         <Route exact={true} path="/reserve-now" element={<Reserve />} />

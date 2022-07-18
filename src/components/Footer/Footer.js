@@ -16,8 +16,8 @@ const Footer = () => {
                 <div className="nav col-md-12">
                     <ul>
                         <li className='footer-tab'><Link to="/faq">FAQ</Link></li>
-                        <li className='footer-tab'><Link to="/">PRIVACY POLICY</Link></li>
-                        <li className='footer-tab'><Link to="/">TERMS & CONIDTIONS</Link></li>
+                        <li className='footer-tab'><Link to="/privacy-policy">PRIVACY POLICY</Link></li>
+                        <li className='footer-tab'><Link to="/terms-and-condition">TERMS & CONIDTIONS</Link></li>
                         <li className='footer-tab'><Link to="/Contact">CONTACT US</Link></li>
                         <li className='footer-tab'><Link to="/news">NEWS</Link></li>
                         <li className='footer-tab'><Link to="/subscribe">SUBSCRIBE</Link></li>

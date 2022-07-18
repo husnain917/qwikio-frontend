@@ -9,6 +9,7 @@ import Footer from "../../components/Footer/Footer";
 import { Link } from "react-router-dom";
 import arrow from '../../image/arrow.png';
 import whiteArrow from '../../image/arrow.png';
+import UseWhyQwikio from './UseWhyQwikio';
 function SampleNextArrow(props) {
     const { className, style, onClick } = props;
     return (
@@ -32,7 +33,7 @@ function SamplePrevArrow(props) {
 }
 
 export default function WhyQwikio() {
-
+    const [{ data }] = UseWhyQwikio();
     const [slideval, setslideval] = useState(3);
 
     var settings = {
@@ -92,10 +93,10 @@ export default function WhyQwikio() {
                                 <h2>WE ARE QWIKIO</h2>
                                 <p className='hidden-visibility'>Battery Capacity 44.5 kWh / 400 hp / 195 mi range</p>
                                 <div className='inline-btns-row'>
-                                    <Link className="button" to="/Product">
+                                    <Link className="button" to="/reserve-now">
                                         RESERVE NOW
                                     </Link>
-                                    <Link className="contact-button" to="/Product">
+                                    <Link className="contact-button" to="/contact">
                                         CONTACT US
                                     </Link>
                                 </div>
@@ -106,10 +107,10 @@ export default function WhyQwikio() {
                                 <h2>WE ARE QWIKIO</h2>
                                 <p className='hidden-visibility'>Battery Capacity 44.5 kWh / 400 hp / 195 mi range</p>
                                 <div className='inline-btns-row'>
-                                    <Link className="button" to="/Product">
+                                    <Link className="button" to="/reserve-now">
                                         RESERVE NOW
                                     </Link>
-                                    <Link className="contact-button" to="/Product">
+                                    <Link className="contact-button" to="/contact">
                                         CONTACT US
                                     </Link>
                                 </div>
@@ -122,7 +123,7 @@ export default function WhyQwikio() {
                     <div className="boxes-container">
                         <div className='gallery-and-signup-boxes-row'>
                             {/* True SUSTAINBILITY CONTAINER */}
-                            <Link className='link-text' to={`/`}>
+                            <Link className='link-text' to={`/why-qwikio/why-qwikio-true-sustainability`}>
                                 <div className="gallery-box-container">
                                     <p className='product-name'> TRUE SUSTAINABILITY</p>
                                     <p className='gallery-desc'>A CLEAR, CIRCULAR, EQUITABLE FUTURE</p>
@@ -154,33 +155,38 @@ export default function WhyQwikio() {
                     {/* METHOD PICTURE */}
                     <div className={`why-qwikio-method-picture-container`}>
                         <div className='heading-name-details-container'>
-                            <div className='why-qwikio-icon-and-details-row'>
-                                <div>
-                                    <div className='why-qwikio-heading-container'>
-                                        <p>Why Arrival</p>
+                            <Link className='link-text' to='/why-qwikio/why-qwikio'>
+                                <div className='why-qwikio-icon-and-details-row'>
+                                    <div>
+                                        <div className='why-qwikio-heading-container'>
+                                            <p>Why Arrival</p>
+                                        </div>
+                                        <div className='why-qwikio-desc-of-heading-container'>
+                                            <p>A better approach using New Method</p>
+                                        </div>
                                     </div>
-                                    <div className='why-qwikio-desc-of-heading-container'>
-                                        <p>A better approach using New Method</p>
-                                    </div>
+                                    <div><img width={25} height={25} src={whiteArrow} alt="" /></div>
                                 </div>
-                                <div><img width={25} height={25} src={whiteArrow} alt="" /></div>
-                            </div>
+                            </Link>
+
                         </div>
                     </div>
                     {/* FACTORY PICTURE */}
                     <div className={`why-qwikio-factory-picture-container`}>
                         <div className='heading-name-details-container'>
-                            <div className='why-qwikio-icon-and-details-row'>
-                                <div>
-                                    <div className='why-qwikio-heading-container'>
-                                        <p>The Microfactory</p>
+                            <Link to='/why-qwikio/why-qwikio-microfactory'>
+                                <div className='why-qwikio-icon-and-details-row'>
+                                    <div>
+                                        <div className='why-qwikio-heading-container'>
+                                            <p>The Microfactory</p>
+                                        </div>
+                                        <div className='why-qwikio-desc-of-heading-container'>
+                                            <p>Empowering comunities</p>
+                                        </div>
                                     </div>
-                                    <div className='why-qwikio-desc-of-heading-container'>
-                                        <p>Empowering comunities</p>
-                                    </div>
+                                    <div><img width={25} height={25} src={whiteArrow} alt="" /></div>
                                 </div>
-                                <div><img width={25} height={25} src={whiteArrow} alt="" /></div>
-                            </div>
+                            </Link>
                         </div>
                     </div>
                     <p className='human-centred-design'>Human-centred design</p>
@@ -189,33 +195,37 @@ export default function WhyQwikio() {
                     <div className='videos-row'>
                         <div className={`why-qwikio-method-video-container`}>
                             <div className='heading-name-details-container'>
-                                <div className='why-qwikio-icon-and-details-row'>
-                                    <div>
-                                        <div className='why-qwikio-heading-container'>
-                                            <p>True Sustainability</p>
+                                <Link className='link-text' to={`/why-qwikio/why-qwikio-true-sustainability`}>
+                                    <div className='why-qwikio-icon-and-details-row'>
+                                        <div>
+                                            <div className='why-qwikio-heading-container'>
+                                                <p>True Sustainability</p>
+                                            </div>
+                                            <div className='why-qwikio-desc-of-heading-container'>
+                                                <p>A CLEAR, CIRCULAR, EQUITABLE FUTURE</p>
+                                            </div>
                                         </div>
-                                        <div className='why-qwikio-desc-of-heading-container'>
-                                            <p>A CLEAR, CIRCULAR, EQUITABLE FUTURE</p>
-                                        </div>
+                                        <div><img width={25} height={25} src={whiteArrow} alt="" /></div>
                                     </div>
-                                    <div><img width={25} height={25} src={whiteArrow} alt="" /></div>
-                                </div>
+                                </Link>
                             </div>
                         </div>
                         {/* FACTORY PICTURE */}
                         <div className={`why-qwikio-factory-video-container`}>
                             <div className='heading-name-details-container'>
-                                <div className='why-qwikio-icon-and-details-row'>
-                                    <div>
-                                        <div className='why-qwikio-heading-container'>
-                                            <p>Safety Strategy</p>
+                                <Link to='/why-qwikio/why-qwikio-safety'>
+                                    <div className='why-qwikio-icon-and-details-row'>
+                                        <div>
+                                            <div className='why-qwikio-heading-container'>
+                                                <p>Safety Strategy</p>
+                                            </div>
+                                            <div className='why-qwikio-desc-of-heading-container'>
+                                                <p>Make roads safer for everyone</p>
+                                            </div>
                                         </div>
-                                        <div className='why-qwikio-desc-of-heading-container'>
-                                            <p>Make roads safer for everyone</p>
-                                        </div>
+                                        <div><img width={25} height={25} src={whiteArrow} alt="" /></div>
                                     </div>
-                                    <div><img width={25} height={25} src={whiteArrow} alt="" /></div>
-                                </div>
+                                </Link>
                             </div>
                         </div>
                     </div>
@@ -223,33 +233,37 @@ export default function WhyQwikio() {
                     <div className='videos-row'>
                         <div className={`why-qwikio-method-video-container`}>
                             <div className='heading-name-details-container'>
-                                <div className='why-qwikio-icon-and-details-row'>
-                                    <div>
-                                        <div className='why-qwikio-heading-container'>
-                                            <p>True Sustainability</p>
+                                <Link to='/why-qwikio/why-qwikio-materials'>
+                                    <div className='why-qwikio-icon-and-details-row'>
+                                        <div>
+                                            <div className='why-qwikio-heading-container'>
+                                                <p>Materials</p>
+                                            </div>
+                                            <div className='why-qwikio-desc-of-heading-container'>
+                                                <p>Low cost, strong and lightweight</p>
+                                            </div>
                                         </div>
-                                        <div className='why-qwikio-desc-of-heading-container'>
-                                            <p>A CLEAR, CIRCULAR, EQUITABLE FUTURE</p>
-                                        </div>
+                                        <div><img width={25} height={25} src={whiteArrow} alt="" /></div>
                                     </div>
-                                    <div><img width={25} height={25} src={whiteArrow} alt="" /></div>
-                                </div>
+                                </Link>
                             </div>
                         </div>
                         {/* FACTORY PICTURE */}
                         <div className={`why-qwikio-factory-video-container`}>
                             <div className='heading-name-details-container'>
-                                <div className='why-qwikio-icon-and-details-row'>
-                                    <div>
-                                        <div className='why-qwikio-heading-container'>
-                                            <p>Safety Strategy</p>
+                                <Link to='/why-qwikio/why-qwikio-elements'>
+                                    <div className='why-qwikio-icon-and-details-row'>
+                                        <div>
+                                            <div className='why-qwikio-heading-container'>
+                                                <p>Elements</p>
+                                            </div>
+                                            <div className='why-qwikio-desc-of-heading-container'>
+                                                <p>The components of our vehicles</p>
+                                            </div>
                                         </div>
-                                        <div className='why-qwikio-desc-of-heading-container'>
-                                            <p>Make roads safer for everyone</p>
-                                        </div>
+                                        <div><img width={25} height={25} src={whiteArrow} alt="" /></div>
                                     </div>
-                                    <div><img width={25} height={25} src={whiteArrow} alt="" /></div>
-                                </div>
+                                </Link>
                             </div>
                         </div>
                     </div>
@@ -257,7 +271,7 @@ export default function WhyQwikio() {
                     <div className="boxes-container">
                         <div className='gallery-and-signup-boxes-row'>
                             {/* True SUSTAINBILITY CONTAINER */}
-                            <Link className='link-text' to={`/`}>
+                            <Link className='link-text' to={`/why-qwikio/why-qwikio-true-sustainability`}>
                                 <div className="gallery-box-container">
                                     <p className='product-name'> TRUE SUSTAINABILITY</p>
                                     <p className='gallery-desc'>A CLEAR, CIRCULAR, EQUITABLE FUTURE</p>
