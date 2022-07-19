@@ -1,56 +1,52 @@
-.terms {
+.terms-main-heading{
+  margin-top:120px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.terms-page-container {
+    width: 100%;
     display: flex;
+    justify-content: center;
+    padding-left: 100px;
+    padding-right: 30px;
+    padding-top: 40px;
+    padding-bottom: 100px;
   }
-  
-  nav { 
-    flex: 0 0 45vw;
-    background: rgb(255, 255, 255);
-  }
-  .terms-wrapper {
-    position: fixed;
-    top: 30px; 
-    left: 30px;
-    vertical-align: baseline;
-    font-family: "Arrival Apercu Pro", system-ui;
+.terms-questions-answers-container {
     font-style: normal;
-    font-weight: 300;
     letter-spacing: normal;
-    font-size: 24px;
-    line-height: 34px;
+    width: 40%;
   }
-  
-  section {
-    flex: 1 1;
-    padding: 20px;
-  }
-  @media screen and (max-width: 480px) {
-    section {
-     flex: 0 0;
-        padding: 20px;
-      }
+  .about-qwikio-privacy-text{
+    font-family: 'Space Mono', monospace;
   }
   .terms-questions{
-    line-height: 0.9rem;
+    cursor: pointer;
+    font-family: 'Space Mono', monospace;
+    transition: 0.4s;
   }
-  .terms-answers{
-    margin-top: 80px;
-    font-size: 16px;
-    line-height: 2rem;
-    font-weight: 350;
+.terms-questions:hover{
+  transform: scale(1.05);
+}
+.qwikio-question-answer{
+  font-family: 'Space Mono', monospace;
+}
+@media screen and (max-width:1024px) {
+  .terms-questions-answers-container {
+    width: 60%;
   }
-  .privacylink{
-    color: #000;
-    text-decoration: underline;
+}
+@media screen and (max-width:750px) {
+  .terms-page-container{
+    display: block;
+    padding-left: 30px;
   }
-  .privacylink:hover{
-    color: #000;
-    text-decoration: underline;
+  .terms-questions-answers-container{
+    width: 100%;
   }
-  .terms-heading{
- font-size: 24px;
- font-family: "Arrival Apercu Pro", system-ui;
-    font-style: normal;
-    font-weight: 400;
-    letter-spacing: normal;
-    line-height: 32px;
+  .terms-questions-answers-container>h2{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
   }
+}

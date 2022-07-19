@@ -78,3 +78,35 @@
     font-weight: 300;
     margin-top: 0px;
 }
+@media screen and (max-width:1024px) {
+    .empty-container{
+        display: none;
+    }
+    .content-container{
+        width: 100%;
+    }
+}
+@media screen and (max-width:750px) {
+    .top-picture-container{
+        background-position: 40%;
+    }
+    .why-qwikio-page-title-heading{
+        margin-right: 30px;
+        margin-left: 30px;
+        font-size: 22px;
+    }
+    .title-info-text{
+        margin-right: 30px;
+        margin-left: 30px;
+        font-size: 22px;
+    }
+    .empty-content-container{
+        display: none;
+    }
+    .text-content-body{
+        width: 100%;
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+}
+
