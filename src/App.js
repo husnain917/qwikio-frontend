@@ -68,8 +68,8 @@ function App() {
         <Route exact={true} path="/:name" element={<Models />} />
         <Route exact={true} path="/RiidaXL" element={<RiidaXL />} />
         <Route exact={true} path="/Pride" element={<Pride />} />
-        <Route exact={true} path="/why-qwikio" element={<WhyQwikio />} />
-        <Route exact={true} path="/why-qwikio/:name" element={<WhyQwikioDetails />} />
+        <Route exact={true} path="/we're-qwikio" element={<WhyQwikio />} />
+        <Route exact={true} path="/we're-qwikio/:name" element={<WhyQwikioDetails />} />
         {/* <Route exact={true} path="/luxury" element={<Home3 />} /> */}
         <Route exact={true} path="/contact" element={<Contact />} />
         <Route exact={true} path="/reserve-now" element={<Reserve />} />

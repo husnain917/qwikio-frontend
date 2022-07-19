@@ -17,7 +17,7 @@ export default function WhyQwikioDetails() {
     console.log(dataObj);
     return (
         <div>
-            <Menu name='why-qwikio' />
+            <Menu name="we're-qwikio" />
             <div className='full-page-black-body-container'>
                 <div className='empty-and-content-row'>
                     <div className='empty-container'></div>

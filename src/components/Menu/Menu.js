@@ -31,7 +31,7 @@ const Menu = ({ name }) => {
                 <FontAwesomeIcon onClick={openMenu} className='icon' icon={faBars} />
                 <ul>
                     <FontAwesomeIcon onClick={closeMenu} className='time' icon={faTimes} />
-                    <li onClick={width <= 950 && closeMenu} className={name == 'why-qwikio' ? 'active' : 'not-active'}><Link to="/why-qwikio">WHY QWIKIO</Link></li>
+                    <li onClick={width <= 950 && closeMenu} className={name == "we're-qwikio" ? 'active' : 'not-active'}><Link to="/we're-qwikio">WE'RE QWIKIO</Link></li>
                     <li onClick={width <= 950 && closeMenu} className={name == 'bus' ? 'active' : 'not-active'}><Link to={`/${'bus'}`}>BUS</Link></li>
                     <li onClick={width <= 950 && closeMenu} className={name == 'rideshare' ? 'active' : 'not-active'}><Link to={`/${'rideshare'}`}>RIDESHARE</Link></li>
                     <li onClick={width <= 950 && closeMenu} className={name == 'luxury' ? 'active' : 'not-active'}><Link to={`/${'luxury'}`}>LUXURY</Link></li>

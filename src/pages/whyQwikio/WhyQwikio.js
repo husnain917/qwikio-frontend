@@ -71,7 +71,7 @@ export default function WhyQwikio() {
     return (
         <div className='why-qwikio-main-page-container'>
             <div className="Riidax">
-                <Menu name='why-qwikio' />
+                <Menu name="we're-qwikio" />
                 <div className="sliders">
                     <Slider {...setting}>
                         <div className="item item1 uk-animation">
@@ -123,7 +123,7 @@ export default function WhyQwikio() {
                     <div className="boxes-container">
                         <div className='gallery-and-signup-boxes-row'>
                             {/* True SUSTAINBILITY CONTAINER */}
-                            <Link className='link-text' to={`/why-qwikio/why-qwikio-true-sustainability`}>
+                            <Link className='link-text' to={`/we're-qwikio/why-qwikio-true-sustainability`}>
                                 <div className="gallery-box-container">
                                     <p className='product-name'> TRUE SUSTAINABILITY</p>
                                     <p className='gallery-desc'>A CLEAR, CIRCULAR, EQUITABLE FUTURE</p>
@@ -155,11 +155,11 @@ export default function WhyQwikio() {
                     {/* METHOD PICTURE */}
                     <div className={`why-qwikio-method-picture-container`}>
                         <div className='heading-name-details-container'>
-                            <Link className='link-text' to='/why-qwikio/why-qwikio'>
+                            <Link className='link-text' to={`/we're-qwikio/why-qwikio`}>
                                 <div className='why-qwikio-icon-and-details-row'>
                                     <div>
                                         <div className='why-qwikio-heading-container'>
-                                            <p>Why Arrival</p>
+                                            <p>Why Qwikio</p>
                                         </div>
                                         <div className='why-qwikio-desc-of-heading-container'>
                                             <p>A better approach using New Method</p>
@@ -174,7 +174,7 @@ export default function WhyQwikio() {
                     {/* FACTORY PICTURE */}
                     <div className={`why-qwikio-factory-picture-container`}>
                         <div className='heading-name-details-container'>
-                            <Link to='/why-qwikio/why-qwikio-microfactory'>
+                            <Link className='link-text' to="/we're-qwikio/why-qwikio-microfactory">
                                 <div className='why-qwikio-icon-and-details-row'>
                                     <div>
                                         <div className='why-qwikio-heading-container'>
@@ -195,7 +195,7 @@ export default function WhyQwikio() {
                     <div className='videos-row'>
                         <div className={`why-qwikio-method-video-container`}>
                             <div className='heading-name-details-container'>
-                                <Link className='link-text' to={`/why-qwikio/why-qwikio-true-sustainability`}>
+                                <Link className='link-text' to={`/we're-qwikio/why-qwikio-true-sustainability`}>
                                     <div className='why-qwikio-icon-and-details-row'>
                                         <div>
                                             <div className='why-qwikio-heading-container'>
@@ -213,7 +213,7 @@ export default function WhyQwikio() {
                         {/* FACTORY PICTURE */}
                         <div className={`why-qwikio-factory-video-container`}>
                             <div className='heading-name-details-container'>
-                                <Link to='/why-qwikio/why-qwikio-safety'>
+                                <Link className='link-text' to="/we're-qwikio/why-qwikio-safety">
                                     <div className='why-qwikio-icon-and-details-row'>
                                         <div>
                                             <div className='why-qwikio-heading-container'>
@@ -233,7 +233,7 @@ export default function WhyQwikio() {
                     <div className='videos-row'>
                         <div className={`why-qwikio-method-video-container`}>
                             <div className='heading-name-details-container'>
-                                <Link to='/why-qwikio/why-qwikio-materials'>
+                                <Link className='link-text' to="/we're-qwikio/why-qwikio-materials">
                                     <div className='why-qwikio-icon-and-details-row'>
                                         <div>
                                             <div className='why-qwikio-heading-container'>
@@ -251,7 +251,7 @@ export default function WhyQwikio() {
                         {/* FACTORY PICTURE */}
                         <div className={`why-qwikio-factory-video-container`}>
                             <div className='heading-name-details-container'>
-                                <Link to='/why-qwikio/why-qwikio-elements'>
+                                <Link className='link-text' to="/we're-qwikio/why-qwikio-elements">
                                     <div className='why-qwikio-icon-and-details-row'>
                                         <div>
                                             <div className='why-qwikio-heading-container'>
@@ -271,7 +271,7 @@ export default function WhyQwikio() {
                     <div className="boxes-container">
                         <div className='gallery-and-signup-boxes-row'>
                             {/* True SUSTAINBILITY CONTAINER */}
-                            <Link className='link-text' to={`/why-qwikio/why-qwikio-true-sustainability`}>
+                            <Link className='link-text' to={`/we're-qwikio/why-qwikio-true-sustainability`}>
                                 <div className="gallery-box-container">
                                     <p className='product-name'> TRUE SUSTAINABILITY</p>
                                     <p className='gallery-desc'>A CLEAR, CIRCULAR, EQUITABLE FUTURE</p>
