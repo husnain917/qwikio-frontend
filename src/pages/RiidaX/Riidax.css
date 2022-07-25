@@ -5,7 +5,7 @@
 .Riidax .menu{
     position: absolute;
     top:10px;
-    z-index:9999;
+    /* z-index:200; */
     left:5%;
 }
 .Riidax .Header .slick-dots{
@@ -23,7 +23,7 @@
 .Riidax .Header .item{
     width:100%;
     height:100vh !important;
-    z-index:1;
+    /* z-index:1; */
     padding-top:100px;
 }  
 .Riidax .item{
@@ -187,7 +187,7 @@
     width:100%;
     height: 100vh;
     overflow: hidden;
-    z-index:1;
+    /* z-index:1; */
     /* margin-top: 96px; */
 }
 .slick-prev {
@@ -195,7 +195,7 @@
     display: flex !important;
     justify-content: center !important;
     align-items: center !important;
-    z-index:99999;
+    z-index:200;
     background-color: rgba(128, 128, 128, 0) !important;
     padding:32px !important;
     border: 1px solid #FFFFFF !important;
@@ -209,7 +209,7 @@
     justify-content: center !important;
     align-items: center !important;
     background-color: rgba(128, 128, 128, 0) !important;
-    z-index:99999;
+    /* z-index:200; */
     padding: 33px 47px !important;
     border: 1px solid #FFFFFF !important;
     border-radius:50px !important;
@@ -218,7 +218,7 @@
 .sliders .item{
     height:100vh;
     background-color: rgba(0, 0, 0, 0.269);
-    z-index:9999;
+    /* z-index:200; */
 }
 .sliders .item1{
     background-image: url('../../image/RiidaXL.jpg');
@@ -534,7 +534,7 @@
         justify-content: unset !important;
         align-items: center !important;
         background-color: rgba(128, 128, 128, 0) !important;
-        z-index: 99999;
+        /* z-index: 200; */
         padding: 33px 47px !important;
         border: none !important;
         border-radius: 50px !important;
@@ -546,7 +546,7 @@
         display: flex !important;
         justify-content: unset !important;
         align-items: center !important;
-        z-index: 99999;
+        /* z-index: 200; */
         background-color: rgba(128, 128, 128, 0) !important;
         padding: 32px !important;
         border: none !important;

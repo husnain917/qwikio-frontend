@@ -1,0 +1,55 @@
+.closeTxt{
+    font-size: 18px;
+    padding: 40px;
+}
+.secondContent{
+    border-radius: 10px 0px 0px 10px;
+}
+.heading{
+    font-size: 30px;
+}
+.txtDiv{
+    padding-bottom: 40px;
+}
+.closeDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.form-check-label{
+    font-size: 20px;
+}
+
+@media screen and (max-width:950px) {
+    .closeDiv{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .closeDiv{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+    .closeTxt{
+        font-size: 14px;
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .closeDiv{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+    .closeTxt{
+        font-size: 14px;
+        padding: 15px;
+    }
+}

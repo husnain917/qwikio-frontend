@@ -1,0 +1,37 @@
+.btnDiv{
+    margin-bottom: 80px;
+}
+.joinUsDiv{
+    padding-top: 40px;
+}
+.breadcrumb-item{
+    font-size: 16px;
+}
+.footerCard{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
+.imgDiv{
+    display: block;
+}
+
+
+@media screen and (max-width:950px) {
+    .imgDiv{
+        display: block;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .imgDiv{
+        display: none;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .imgDiv{
+        display: none;
+    }
+}

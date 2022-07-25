@@ -1,10 +1,10 @@
 import React from 'react';
-import logo from '../../image/Group 15.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons'
 import { Routes, Route, Link } from "react-router-dom";
 import './Menu.css';
 import UseWindowDimensions from '../../customHooks/UseWindowDimensions';
+import SideBar from '../sideBar/SideBar';
 
 const Menu = ({ name }) => {
     const { width } = UseWindowDimensions();
@@ -25,7 +25,7 @@ const Menu = ({ name }) => {
     return (
         <div className="menu">
             <div className="logo col-md-1">
-                <Link to="/"><img src={logo} /></Link>
+                <SideBar />
             </div>
             <div className="nav col-md-11">
                 <FontAwesomeIcon onClick={openMenu} className='icon' icon={faBars} />

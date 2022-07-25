@@ -35,6 +35,9 @@ import News from './pages/news/News';
 import NewsDetails from './pages/newsDetails/NewsDetails';
 import WhyQwikio from './pages/whyQwikio/WhyQwikio';
 import WhyQwikioDetails from './pages/whyQwikioDetails/WhyQwikioDetails';
+import Partners from './pages/partners/Partners';
+import Supplier from './pages/supplier/Supplier';
+import JoinUs from './pages/joinUs/JoinUs';
 
 function App() {
 
@@ -73,6 +76,9 @@ function App() {
         {/* <Route exact={true} path="/luxury" element={<Home3 />} /> */}
         <Route exact={true} path="/contact" element={<Contact />} />
         <Route exact={true} path="/reserve-now" element={<Reserve />} />
+        <Route exact={true} path="/joinUs" element={<JoinUs />} />
+        <Route exact={true} path="/partners" element={<Partners />} />
+        <Route exact={true} path="/supplier" element={<Supplier />} />
       </Routes>
     </>
   );
