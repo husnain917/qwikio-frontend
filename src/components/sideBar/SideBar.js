@@ -94,8 +94,8 @@ export default function SideBar() {
                             </div>
 
                             {/* 2nd content */}
-                            <div className="col-lg-6 col-md-6 col-sm-12 m-0 p-0">
-                                <div style={{ backgroundColor: '#e9ecef', borderRadius: '5px' }}>
+                            <div className="col-lg-6 col-md-6 col-sm-12 m-0 p-0" style={{ backgroundColor: '#e9ecef', borderRadius: '5px' }}>
+                                <div>
                                     <div className='mb-3 py-4 px-4'>
                                         <p>My Qwikio</p>
                                     </div>
@@ -108,45 +108,40 @@ export default function SideBar() {
                                     </div>
                                 </div>
 
-                                <div className="container">
-                                    <div className="row">
-                                        {/* 1st content */}
-                                        <div className="col-lg-6 col-md-6 col-sm-12" style={{ backgroundColor: '#e9ecef', borderRadius: '5px', width: '49%', marginRight: '5px' }}>
-                                            <div>
-                                                <div className='mb-3 py-4 px-4'>
-                                                    <p>GET IN TOUCH</p>
-                                                </div>
-                                                <div>
-                                                    <ul style={{ listStyle: 'none', fontSize: '22px', paddingTop: '72px' }}>
-                                                        <li className='my-2'>GET HELP</li>
-                                                        {/* <Link path={'/partners'} style={{textDecoration:'none'}}> */}
-                                                            <li className='my-2'>BECOME A PARTNER</li>
-                                                        {/* </Link> */}
-                                                        {/* <Link path={'/supplier'} style={{textDecoration:'none'}}> */}
-                                                            <li className='my-2'>BECOME A SUPPLIER</li>
-                                                        {/* </Link> */}
-                                                        {/* <Link path={'/joinUs'} style={{textDecoration:'none'}}> */}
-                                                            <li className='my-2'>JOIN OUR TEAM</li>
-                                                        {/* </Link> */}
-                                                    </ul>
-                                                </div>
-                                            </div>
+                                <div className='d-md-flex d-sm-inline-flex border border-top border-end-0 border-bottom-0 border-start-0 border-dark border-5'>
+                                    {/* 1st content */}
+                                    <div style={{ backgroundColor: '#e9ecef', borderRadius: '5px', width: '49%', marginRight: '5px' }}>
+                                        <div style={{padding:'30px'}}>
+                                            <p>GET IN TOUCH</p>
                                         </div>
-
-                                        {/* 2nd content */}
-                                        <div className="col-lg-6 col-md-6 col-sm-12" style={{ backgroundColor: '#e9ecef', borderRadius: '5px', width: '50%' }}>
+                                        <div>
+                                            <ul style={{ listStyle: 'none', fontSize: '22px', paddingTop: '72px' }}>
+                                                <li className='my-2'>GET HELP</li>
+                                                {/* <Link path={'/partners'} style={{textDecoration:'none'}}> */}
+                                                <li className='my-2'>BECOME A PARTNER</li>
+                                                {/* </Link> */}
+                                                {/* <Link path={'/supplier'} style={{textDecoration:'none'}}> */}
+                                                <li className='my-2'>BECOME A SUPPLIER</li>
+                                                {/* </Link> */}
+                                                {/* <Link path={'/joinUs'} style={{textDecoration:'none'}}> */}
+                                                <li className='my-2'>JOIN OUR TEAM</li>
+                                                {/* </Link> */}
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    {/* 2nd content */}
+                                    <div className="col-lg-6 col-md-6 col-sm-12 border border-top-0 border-end-0 border-bottom-0 border-start border-dark border-5" style={{ backgroundColor: '#e9ecef', width: '50%' }}>
+                                        <div>
+                                            <div style={{padding:'30px'}}>
+                                                <p>SHOW INTERST</p>
+                                            </div>
+                                            <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+                                                <img src={imgBus} alt="Image Not Found" height={"150px"} width={"200px"} />
+                                            </div>
                                             <div>
-                                                <div className='mb-3 py-4 px-4'>
-                                                    <p>SHOW INTERST</p>
-                                                </div>
-                                                <div style={{display:'flex',justifyContent:'center',alignItems:'center'}}>
-                                                    <img src={imgBus} alt="Image Not Found" height={"150px"} width={"200px"} />
-                                                </div>
-                                                <div>
-                                                    <p className='mb-3 py-4 px-4' style={{fontSize:'22px'}}>
-                                                        SHOW YOUR INTERST IN THE VAN OR BUS
-                                                    </p>
-                                                </div>
+                                                <p className='mb-2 py-4 px-4' style={{ fontSize: '22px' }}>
+                                                    SHOW YOUR INTERST IN THE VAN OR BUS
+                                                </p>
                                             </div>
                                         </div>
                                     </div>

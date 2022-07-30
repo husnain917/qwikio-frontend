@@ -12,15 +12,62 @@
     justify-content: space-between;
     align-items: center;
     padding-top: 20px;
+    position: absolute;
+    bottom: 0;
+    left: 5px;
+    width: 40%;
+}
+.lastCard{
+    margin-bottom: 80px;
 }
 .imgDiv{
     display: block;
 }
+.iconArrow{
+    text-align: right;
+    font-size: 30px;
+    padding: 20px 40px;
+}
+.textHeadingDiv{
+    margin-top: 110px;
+    padding-left: 30px;
+}
+.textHeadingDiv p {
+    font-size: 20px;
+}
+.pointerC{
+    cursor: grab;
+}
+.footerCardR{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    position: absolute;
+    bottom: 0;
+    right: 33px;
+    width: 55%;
+}
 
-
-@media screen and (max-width:950px) {
+@media screen and (max-width:992px) {
     .imgDiv{
         display: block;
+    }
+    .footerCard{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 20px;
+        position: absolute;
+        bottom: 0;
+        left: 0px;
+        width: 100%;
+    }
+    .lastCard{
+        margin-bottom: 110px;
+    }
+    .footerCardR{
+        display: none;
     }
 }
 
@@ -28,10 +75,42 @@
     .imgDiv{
         display: none;
     }
+    .footerCard{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 20px;
+        position: absolute;
+        bottom: 0;
+        left: 0px;
+        width: 100%;
+    }
+    .lastCard{
+        margin-bottom: 110px;
+    }
+    .footerCardR{
+        display: none;
+    }
 }
 
 @media screen and (max-width:600px) {
     .imgDiv{
+        display: none;
+    }
+    .footerCard{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 20px;
+        position: absolute;
+        bottom: 0;
+        left: 0px;
+        width: 100%;
+    }
+    .lastCard{
+        margin-bottom: 110px;
+    }
+    .footerCardR{
         display: none;
     }
 }
