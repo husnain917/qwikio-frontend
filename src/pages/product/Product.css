@@ -70,7 +70,6 @@
     overflow-y: auto;
     scrollbar-width: none;
     -ms-overflow-style: none;
-    cursor: pointer;
 }
 .boxes-container::-webkit-scrollbar {
     display: none; 
